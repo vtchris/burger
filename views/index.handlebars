@@ -5,7 +5,7 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{this.name}}
+      <li><button class="js_updateBurger" data-id="{{this.id}}">EAT BURGER</button>{{this.burger_name}}</li>
     {{/unless}}
   {{/each}}
 </ul>
@@ -15,7 +15,7 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{this.burger_name}}
+      <li><button class="js_deleteBurger" data-id="{{this.id}}">DIGEST</button>{{this.burger_name}}</li>
     {{/if}}
   {{/each}}
 </ul>
@@ -28,5 +28,5 @@
     <input type="text" id="name-txt" name="name">
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button id="submit-btn">Add Burger</button>
 </form>

@@ -16,6 +16,8 @@ app.use(express.json());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static("public"));
 
 // Root get route
 app.use(router);
