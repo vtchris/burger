@@ -6,6 +6,10 @@ img{
     max-height:200px;
     width:auto;    
 }
+li{
+    overflow: hidden;
+    white-space: nowrap;    
+}
 ul{
     margin:0;
     padding: 0;

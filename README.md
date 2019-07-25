@@ -1,5 +1,20 @@
 # Burger Devouring Game
 
+Eat Da Burger is a logging app in which the user can Create a burger (Create/Insert), eat the burger (Update), and digest the burger (Delete). This app is organized using the MVC (Model View Controller) methodology.
+
+# Technology
+<ul>
+     <li>Node.js - https://nodejs.org/en/</li>
+     <li>MySQL - https://www.mysql.com/</li>
+     <li>Handlebars - http://handlebarsjs.com/</li>
+     <li>Bootstrap - https://getbootstrap.com/docs/4.3/getting-started/introduction/</li> 
+</ul>
+
+![](public/assets/img/readme/burger1.jpg)
+
+# Mobile Responsive
+![](public/assets/img/readme/burger2.jpg)
+
 # Node Express Handlebars - MVC
 
 ### Overview
