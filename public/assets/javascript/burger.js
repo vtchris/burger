@@ -1,5 +1,7 @@
 var $burgerName = $("#name-txt");
 
+$burgerName.focus();
+
 $(".js_updateBurger").on("click",function(e){
 
     e.preventDefault();
